@@ -1,0 +1,19 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.gameboard {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.bubble {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rebeccapurple;
+    transition: right, top;
+}
